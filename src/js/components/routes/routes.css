@@ -1,0 +1,27 @@
+.routes {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 960px;
+    height: 100%;
+    margin: 30px auto;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.col-distance {
+    width: 160px;
+}
+.text-message-login {
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 86px;
+    top: 45px;
+    background-color: transparent;
+    color: red;
+}

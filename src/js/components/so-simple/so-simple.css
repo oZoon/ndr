@@ -1,0 +1,144 @@
+.text-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 330px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.text-cell-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 330px;
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+}
+.text-label {
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    align-self: flex-start;
+    position: absolute;
+    left: 26px;
+    top: -18px;
+    background-color: transparent;
+}
+.text-message {
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    align-self: flex-start;
+    position: absolute;
+    left: 184px;
+    top: 37px;
+    background-color: white;
+    color: red;
+}
+.text-label-checkbox {
+    font-family: Tahoma;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    align-self: flex-start;
+    position: absolute;
+    left: 10px;
+    background-color: transparent;
+}
+.input-distance {
+    background-color: white;
+    /* border: 1px solid #8c8c8c; */
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    left: 81px;
+    position: absolute;
+    width: 165px;
+    padding: 8px;
+}
+.input-distance:active,
+.input-distance:focus {
+    /* border: 1px solid #8c8c8c; */
+    outline: none;
+}
+.width-330 {
+    width: 330px;
+}
+.input {
+    width: 312px;
+    border: 1px solid #8c8c8c;
+    font-family: Tahoma;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 8px;
+}
+.input:active,
+.input:focus {
+    border: 1px solid #8c8c8c;
+    outline: none;
+}
+.checkbox {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #8c8c8c;
+    padding: 8px;
+    margin-left: 270px;
+}
+.button {
+    color: black;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    font-weight: 400;
+    width: 330px;
+    border: 1px solid #8c8c8c;
+    font-family: Tahoma;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 8px;
+}
+.button-close {
+    position: absolute;
+    top: 4px;
+    left: 310px;
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+    line-height: 8px;
+    padding: 0;
+    margin: 0;
+}
+.button:hover,
+.button-close:hover {
+    background-color: #dadada;
+}
+.button:active,
+.button-close:active {
+    outline: none;
+    background-color: #8c8c8c;
+}
+.button:focus,
+.button-close:focus {
+    outline: none;
+}
+.button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.text-message-redux {
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    background-color: white;
+    color: red;
+}

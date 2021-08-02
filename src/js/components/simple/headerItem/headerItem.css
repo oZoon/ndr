@@ -1,0 +1,17 @@
+.header-item {
+    font-weight: 400;
+}
+.header-item-active {
+    font-weight: 900;
+    text-decoration: underline;
+}
+.header-item-link {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}

@@ -1,0 +1,13 @@
+body {
+    overflow-y: scroll;
+    /* margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border: 0;
+    font-size: 0;
+    line-height: 0; */
+}
+#root {
+    margin: 0 auto;
+    margin-top: 20px;
+}
